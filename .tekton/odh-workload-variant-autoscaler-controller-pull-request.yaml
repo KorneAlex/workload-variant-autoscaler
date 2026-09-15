@@ -27,9 +27,9 @@ spec:
   - name: output-image
     value: quay.io/opendatahub/workload-variant-autoscaler:odh-pr
   - name: dockerfile
-    value: Dockerfile
+    value: Dockerfile.konflux
   - name: path-context
-    value: .
+    value: legacy
   - name: additional-tags
     value:
     - 'odh-pr-{{revision}}'
